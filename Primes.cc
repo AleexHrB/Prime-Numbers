@@ -21,9 +21,19 @@ else cout<<n<<" is a prime number"<<endl;
 /*
 This program is OK if we have 7 years old, but i'm gonna supose you're older.
 We can optimize this algorithm a little bit by only looking all the numbers before n/2. 2 is, as much, the minium divisor.
+*/
+int i = 2;
+int n;
+bool condition = false;
+cin>>n;
+while (i<n/2 and not condition){
+condition = n%i == 0;
+++i;
+}
+if (not condition) cout<<n<<" is not a prime number"<<endl;
+else cout<<n<<" is a prime number"<<endl;
 
-
-
+/*
 
 Another cool solution in this section is to look only until the square root of the number. Supose, for a moment, that n is NOT a prime number.
 If n is NOT a prime number we can write this n like n = a*b. a and b must be less than the square root because sqrt(n)*sqrt(n) = n.
@@ -73,9 +83,9 @@ else cout<<n<<" is not a prime number"<<endl;
 /*
 if you're a math lover probably you would be more happy with this program, but if you're a coder...
 This algorithm is really interesting but probably is less efficient than the other one (looking only until the square root).
-I don't know if you know maths, is not i would record you what's the factorial of a number:
+I don't know if you know maths, if not i would record you what's the factorial of a number:
 The factorial of n (also know as n!) is n*(n-1)*(n-2)*(n-3).....*1
-The factorial function grows up more quickly than the exponential function... So because that i don't thing this is a solution if we're talking about coding.
+The factorial function grows up more quickly than the exponential function (well, not always... depend of the base of the exponential function)... So because that i don't thing this is a solution if we're talking about coding.
 */
 -------------------------------------------------------------------------------------------------------------------------------------------------
 

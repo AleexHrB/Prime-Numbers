@@ -1,5 +1,6 @@
 //Hey everyone, my name is Alex A.K.A Aragorn in the internet and today i would like to share with you 
 //some algorithm to found prime numbers.
+//Note: I have to reorganize all the diferents solutions on functions
 #include <iostream>
 using namespace std;
 int main(){
@@ -81,15 +82,15 @@ if (fact % n == 0) cout<<n<<" is a prime number"<<endl;
 else cout<<n<<" is not a prime number"<<endl;
 
 /*
-if you're a math lover probably you would be more happy with this program, but if you're a coder...
+if you're a math lover probably you would be more happy with this program...
 This algorithm is really interesting but probably is less efficient than the other one (looking only until the square root).
-I don't know if you know maths, if not i would record you what's the factorial of a number:
-The factorial of n (also know as n!) is n*(n-1)*(n-2)*(n-3).....*1
-The factorial function grows up more quickly than the exponential function (well, not always... depend of the base of the exponential function)... So because that i don't thing this is a solution if we're talking about coding.
+I don't know if you know maths, if not i would remind you what's the factorial of a number:
+The factorial of n (also know as n!) is n*(n-1)*(n-2)*(n-3).....*1 (Note: 0! == 1)
+The factorial function grows up more quickly than the exponential function (well, not always... depend of the base of the exponential function)... So because that i don't thing this is a solution if we're talking about efficiency.
 */
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+//I have to continue, but first i need to pass the subjects from the university :-)
 
 
 
